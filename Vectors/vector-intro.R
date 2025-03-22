@@ -53,4 +53,16 @@ adjustment_weight = c(1.2, 1.2, 1.4, 1.4)
 
 melons * adjustment_weight
 
-melons[1]
+# If we try to multiply two different size of vectors, then larger one extended 
+# part will be multipled from the first element of smaller one. For example,
+
+new_melons = c(1.2, 1.2, 1.4, 1.4, 3.4, 1, 2)
+new_melons*adjustment_weight
+
+3.4*1.2
+
+
+
+
+
+
